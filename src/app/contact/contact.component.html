@@ -1,0 +1,14 @@
+<p>contact works!</p>
+<button type="button" routerLink="">HOME</button>
+<br>
+<hr>
+
+<div class="parent">
+    <input #ref type="text" placeholder="using P-C">
+    <button (click)="info(ref)">clike me</button>
+    <!-- <app-about temp={{data}}></app-about> -->
+    <app-about [temp]='data'></app-about>
+</div>
+
+<h1>{{date}}</h1>
+

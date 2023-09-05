@@ -1,0 +1,64 @@
+<!-- behaviour ragx /directive or asin pipe,parametreise non paraametrise -->
+
+<!-- <p> -->
+<div>
+    <mat-toolbar color="primary">
+        <div class="badge_button">
+            <button (click)="drawer.toggle()" mat-icon-button class="example-icon"
+                aria-label="Example icon-button with menu icon">
+                <mat-icon fontIcon="menu"></mat-icon>
+            </button>
+        </div>
+        <span>
+            <pre>   Project</pre>
+        </span>
+
+        <!-- <mat-icon class="_home" aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon> -->
+
+        <span class="example-spacer"></span>
+        <!-- <button class="_button">HOME</button> -->
+        <div class="_button"><button routerLink="about">ABOUT</button></div>
+        <div class="_button"><button routerLink="contact">CONTACT</button></div>
+        <div class="_button"><button routerLink="task">TASK</button></div>
+        <div class="_button"><button routerLink="lazy">lazy</button></div>
+        <div class="_button"><button routerLink="forms">forms</button></div>
+
+    </mat-toolbar>
+</div>
+<!-- </p> -->
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side" color="">NG 
+        <!-- <p>Auto-resizing sidenav</p>
+        <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+        <button (click)="showFiller = !showFiller" mat-raised-button>
+            Toggle extra text
+        </button> -->
+        <!-- sidebar details using table -->
+        <table>
+            <thead>
+                <b>User_Name</b>
+            </thead><br><br>
+            <tr>Id No :-</tr><br>
+            <tr>Name :-</tr><br>
+            <tr>Phone Number :-</tr><br>
+            <tr>address :-</tr><br><br><hr>
+            <button type="button" routerLink="login" >login</button>/
+            <button type="button" routerLink="parent">parent</button>
+            <button type="button" routerLink="child">children</button>
+        </table>
+        
+    </mat-drawer>
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>pic-1</mat-grid-tile>
+        <mat-grid-tile>pic-2</mat-grid-tile>
+        <mat-grid-tile>pic-3</mat-grid-tile>
+        <mat-grid-tile>pic-4</mat-grid-tile>
+      </mat-grid-list>
+
+</mat-drawer-container>
+
+<!-- parent to child from orrt component to contact -->
+
+<mat-paginator class="paginator" [length]="100" [pageSize]="10" [pageSizeOptions]="[5, 10, 25]"
+    aria-label="Select page">
+</mat-paginator>

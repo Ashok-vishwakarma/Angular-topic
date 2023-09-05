@@ -1,0 +1,40 @@
+*{
+    background-color:rgb(227, 248, 245) ;
+}
+
+
+
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.forms{
+    position: relative;
+    padding-left: 45%;
+    /* padding-top:  */
+}
+
+#passward{
+    padding-bottom: 10;
+}
+#username{
+    padding-top: 15% ;
+}
+
+.templatedriven{
+    position: absolute fixed ;
+    border:solid rgb(20, 20, 20);
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    margin-left: 30%;
+    margin-right: 30%; 
+
+
+
+}
+

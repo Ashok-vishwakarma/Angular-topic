@@ -1,0 +1,9 @@
+<p>parent works!</p>
+<button type="button" routerLink="">home</button>
+
+<input type="text" placeholder="enter somthing here" #reff>
+<button (click)="getdata(reff)">submit</button>
+<app-children  (chil_data)="childdata($event)" ></app-children> 
+messsage form children:- {{dataromchild}}
+
+<!-- [name]="abc"  -->

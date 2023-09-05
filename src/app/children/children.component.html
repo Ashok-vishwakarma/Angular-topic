@@ -1,0 +1,13 @@
+<p>children works!</p>
+
+<button type="button" routerLink="">home</button>
+<p>{{name}}</p>         
+
+
+
+
+
+<br><p>here messae is transfer from child to parent</p>
+<input type="text" placeholder="message form children" #child>
+<button type="button" (click)="chil_data.emit(child.value)">submit</button>
+

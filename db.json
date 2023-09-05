@@ -1,0 +1,140 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "email": "abc@gmail.com",
+      "passward": "12345678"
+    },
+    {
+      "username": "nimesh",
+      "email": "kjnjad@gmail.com",
+      "passward": "niojadsnjuf",
+      "id": 6
+    },
+    {
+      "username": "nasd",
+      "email": "amd",
+      "passward": "ldmf",
+      "id": 7
+    },
+    {
+      "username": "nasd",
+      "email": "amd",
+      "passward": "ldmf",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "FirstName": "ashok",
+      "LastName": "vishwakarma",
+      "Username": "ashok123",
+      "password": "ashok@123",
+      "number": 9662536836,
+      "email": "ashokavish2000@gmail.com",
+      "id": 1
+    },
+    {
+      "FirstName": "Tejas",
+      "LastName": "got",
+      "Username": "tejas123",
+      "password": "Tejas@123",
+      "number": 8967454567,
+      "email": "tejas@gmail.com",
+      "id": 2
+    },
+    {
+      "FirstName": "nimesh",
+      "LastName": "handhe",
+      "Username": "nimesh123",
+      "password": "NIMESH@123",
+      "number": 8967987645,
+      "email": "nimesh@gmail.com",
+      "id": 3
+    },
+    {
+      "FirstName": "monish",
+      "LastName": "monish",
+      "Username": "mon123",
+      "password": "monish@123",
+      "number": 9347347858,
+      "email": "monish@gmail.com",
+      "id": 4
+    },
+    {
+      "FirstName": "vivek",
+      "LastName": "singh",
+      "Username": "vivek",
+      "password": "vivek@123",
+      "number": 8796784568,
+      "email": "vivek@gmail.com",
+      "id": 5
+    },
+    {
+      "FirstName": "sdadf",
+      "LastName": "hvyg",
+      "Username": "hvk",
+      "password": "jhbaheifjoj",
+      "number": 9875237058,
+      "email": "jif@gmail.com",
+      "id": 6
+    },
+    {
+      "FirstName": "afalkjai",
+      "LastName": "usdufhkn",
+      "Username": "ndfihj",
+      "password": "sdhfuishef",
+      "number": 8976895678,
+      "email": "kajshhnk,j@gmail.com",
+      "id": 7
+    },
+    {
+      "FirstName": " ajsdakd",
+      "LastName": "khakjsm",
+      "Username": "ankijo",
+      "password": "jniofjnkaemi",
+      "number": 7898567903,
+      "email": "aksndoiahf@gmail.com",
+      "id": 8
+    },
+    {
+      "FirstName": "jasdnaknd",
+      "LastName": "jvubj ",
+      "Username": "snifnbm i",
+      "password": "sdfskbe ",
+      "number": 8976548975,
+      "email": "ndfihdn@gamil.com",
+      "id": 9
+    },
+    {
+      "FirstName": "jjhkjt5t5",
+      "LastName": "rfrf",
+      "Username": "rrrr",
+      "password": "rrrr",
+      "number": 8691849800,
+      "email": "ndfihdn@gamil.com",
+      "id": 10
+    },
+    {
+      "FirstName": "ed",
+      "LastName": "ashok123",
+      "Username": "ashok",
+      "password": "76776",
+      "number": 8691849800,
+      "email": "ashokavish2000@gmail.com",
+      "id": 11
+    },
+    {
+      "FirstName": "afkfjksdnioj",
+      "LastName": "jsjfil",
+      "Username": "jsnifsedn",
+      "password": "niosjef",
+      "number": 8678587297,
+      "email": "wjehjofi@gmail.com",
+      "id": 12
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,23 @@
+<p>posthttpform works!</p>
+
+<h2>data fetching from form input-text using http post method and updating data in json file </h2>
+
+
+    <form   #useradd = "ngForm"  (ngSubmit)="newuse(useradd)">
+        <input type="text"  placeholder="user-name" name="username" [(ngModel)]="username">
+        <br><br>
+        <input type="email" placeholder="email" name="email" [(ngModel)]="email">
+        <br><br>
+        <input type="password" placeholder="passward" name="passward" [(ngModel)]="passward">
+        <br><br>
+        <button type="submit">add</button>
+        <button type="button" (click)=" deletetheuser(useradd)">remove user</button>
+        
+    </form>
+
+
+
+
+
+
+

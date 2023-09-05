@@ -1,0 +1,25 @@
+
+
+.container {
+    border: solid black;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    left: 35%;
+    background-color: rgb(248, 98, 61);
+}
+
+.user-login-page {
+    padding-left: 60px;
+    padding-right: 50px;
+    border-left-width: 100px;
+}
+
+.btn-btn-primary{
+    background-color: rgb(26, 187, 26);
+    
+    border-radius: 25px;
+}
+.btn-btn-primary:hover{
+    background-color: green;
+}
